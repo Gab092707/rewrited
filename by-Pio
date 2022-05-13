@@ -1,0 +1,157 @@
+local gui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local Label = Instance.new("TextLabel")
+local LAbel = Instance.new("TextLabel")
+local _11 = Instance.new("TextButton")
+local _12 = Instance.new("TextButton")
+local _13 = Instance.new("TextButton")
+local _21 = Instance.new("TextButton")
+local _22 = Instance.new("TextButton")
+local _23 = Instance.new("TextButton")
+
+--Properties:
+
+gui.Name = "gui"
+gui.Parent = game.Workspace
+gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = gui
+main.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
+main.Position = UDim2.new(0.41430068, 0, 0.288846642, 0)
+main.Size = UDim2.new(0, 199, 0, 165)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+label.Position = UDim2.new(-0.00471431017, 0, -0.00306260586, 0)
+label.Size = UDim2.new(0, 200, 0, 50)
+label.Font = Enum.Font.SourceSans
+label.Text = "Rewrited Dupe Script | By Pio"
+label.TextColor3 = Color3.fromRGB(255, 255, 255)
+label.TextSize = 14.000
+
+Label.Name = "Label"
+Label.Parent = main
+Label.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+Label.Position = UDim2.new(-0.00502512557, 0, 0.296969712, 0)
+Label.Size = UDim2.new(0, 200, 0, 26)
+Label.Font = Enum.Font.SourceSans
+Label.Text = "2Mins x 30sec"
+Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label.TextSize = 14.000
+
+LAbel.Name = "LAbel"
+LAbel.Parent = main
+LAbel.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+LAbel.Position = UDim2.new(-0.00502512557, 0, 0.642424226, 0)
+LAbel.Size = UDim2.new(0, 200, 0, 26)
+LAbel.Font = Enum.Font.SourceSans
+LAbel.Text = "4Mins x 30sec"
+LAbel.TextColor3 = Color3.fromRGB(0, 0, 0)
+LAbel.TextSize = 14.000
+
+_11.Name = "1.1"
+_11.Parent = main
+_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_11.Position = UDim2.new(0.0452261306, 0, 0.4909091, 0)
+_11.Size = UDim2.new(0, 53, 0, 19)
+_11.Font = Enum.Font.SourceSans
+_11.Text = "1.1"
+_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+_11.TextSize = 14.000
+_11.MouseButton1Down:connect(function()
+	local rewritebypio = game:HttpGet("https://raw.githubusercontent.com/Gab092707/troll1.1/main/Pio-No-leak")
+
+	while task.wait(1.1) do
+		workspace.__THINGS.__REMOTES.MAIN:FireServer("b", rewritebypio)
+	end
+end)
+
+_12.Name = "1.2"
+_12.Parent = main
+_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_12.Position = UDim2.new(0.361809045, 0, 0.4909091, 0)
+_12.Size = UDim2.new(0, 53, 0, 19)
+_12.Font = Enum.Font.SourceSans
+_12.Text = "1.2"
+_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+_12.TextSize = 14.000
+_12.MouseButton1Down:connect(function()
+	local rewritebypio = game:HttpGet("https://raw.githubusercontent.com/Gab092707/troll1.1/main/Pio-No-leak")
+
+	while task.wait(1.2) do
+		workspace.__THINGS.__REMOTES.MAIN:FireServer("b", rewritebypio)
+	end
+end)
+
+_13.Name = "1.3"
+_13.Parent = main
+_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_13.Position = UDim2.new(0.673366845, 0, 0.4909091, 0)
+_13.Size = UDim2.new(0, 53, 0, 19)
+_13.Font = Enum.Font.SourceSans
+_13.Text = "1.3"
+_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+_13.TextSize = 14.000
+_13.MouseButton1Down:connect(function()
+	local rewritebypio = game:HttpGet("https://raw.githubusercontent.com/Gab092707/troll1.1/main/Pio-No-leak")
+
+	while task.wait(1.3) do
+		workspace.__THINGS.__REMOTES.MAIN:FireServer("b", rewritebypio)
+	end
+end)
+
+_21.Name = "2.1"
+_21.Parent = main
+_21.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_21.Position = UDim2.new(0.0452261306, 0, 0.836363673, 0)
+_21.Size = UDim2.new(0, 53, 0, 19)
+_21.Font = Enum.Font.SourceSans
+_21.Text = "2.1"
+_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+_21.TextSize = 14.000
+_21.MouseButton1Down:connect(function()
+	local rewritebypio = game:HttpGet("https://raw.githubusercontent.com/Gab092707/troll1.1/main/Pio-No-leak")
+
+	while task.wait(2.1) do
+		workspace.__THINGS.__REMOTES.MAIN:FireServer("b", rewritebypio)
+	end
+end)
+
+_22.Name = "2.2"
+_22.Parent = main
+_22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_22.Position = UDim2.new(0.361809045, 0, 0.836363673, 0)
+_22.Size = UDim2.new(0, 53, 0, 19)
+_22.Font = Enum.Font.SourceSans
+_22.Text = "2.2"
+_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+_22.TextSize = 14.000
+_22.MouseButton1Down:connect(function()
+	local rewritebypio = game:HttpGet("https://raw.githubusercontent.com/Gab092707/troll1.1/main/Pio-No-leak")
+
+	while task.wait(2.2) do
+		workspace.__THINGS.__REMOTES.MAIN:FireServer("b", rewritebypio)
+	end
+end)
+
+_23.Name = "2.3"
+_23.Parent = main
+_23.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_23.Position = UDim2.new(0.673366845, 0, 0.830303073, 0)
+_23.Size = UDim2.new(0, 53, 0, 19)
+_23.Font = Enum.Font.SourceSans
+_23.Text = "2.3"
+_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+_23.TextSize = 14.000
+_23.MouseButton1Down:connect(function()
+	local rewritebypio = game:HttpGet("https://raw.githubusercontent.com/Gab092707/troll1.1/main/Pio-No-leak")
+
+	while task.wait(2.3) do
+		workspace.__THINGS.__REMOTES.MAIN:FireServer("b", rewritebypio)
+	end
+end)
