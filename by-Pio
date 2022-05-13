@@ -13,7 +13,7 @@ local _23 = Instance.new("TextButton")
 --Properties:
 
 gui.Name = "gui"
-gui.Parent = game.Workspace
+gui.Parent = game.CoreGui
 gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 main.Name = "main"
